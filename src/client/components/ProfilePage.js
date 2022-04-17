@@ -13,7 +13,7 @@ export const ProfilePage = ({ user, setUser, setLoggingOut }) => {
     backendUrl.search = new URLSearchParams({ userid: user.userid }).toString();
   }
 
-  console.log('user object is, ', user);
+  // console.log('user object is, ', user);
   useEffect(() => {
     fetch(backendUrl, {
       headers: {

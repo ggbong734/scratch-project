@@ -28,7 +28,8 @@ const pool = new Pool({
 // start_time VARCHAR, changed this into VARCHAR from timestamp on 4/6/2022
 // private VARCHAR(50),
 // rank INTEGER,
-// local_rank INTEGER
+// local_rank INTEGER,
+// address VARCHAR
 // )
 
 // CREATE TABLE user_events(

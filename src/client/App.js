@@ -16,7 +16,7 @@ function App() {
       })
         .then((res) => res.json())
         .then((response) => {
-          console.log("returned response from auth is:", response);
+          // console.log("returned response from auth is:", response);
           if (response.isLoggedIn) {
             setUser(response.user);
           }
